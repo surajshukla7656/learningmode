@@ -1,0 +1,124 @@
+# type of interfaces 
+
+    1. CLI - Command Line Interface
+    2. GUI - Graphical User Interface
+
+# checking current WD 
+
+    pwd     ---           print working directory
+
+# linux have tree structure file system
+
+    /       ---           root node / root
+
+    cd /    ---           move to root node
+
+# see all directories and files 
+
+    ls
+
+# $ - regular User
+  # - root User
+
+# previous directory
+
+    cd ..
+
+# tab can be used to autocomplete commands
+
+# creating new directory
+
+    mkdir <dirname>
+
+# create blank file
+
+    touch <filename>
+
+# moving files or directories
+
+    mv <current_path> <new_path>
+
+# copying files or directories
+
+    cp <current_path> <new_path>
+
+# types of path 
+
+    1. absolute path/full path
+    2. relative path 
+
+# users in linux
+
+    1. regular user             - control everthing in his owned home directory only ; can't see other user's directories
+
+    2. root user/super user     - act like admin ; have full access
+
+    3. service user - have account in servers like apache 
+
+    * regular user can use root commands using sudo 
+
+    * to become super user     ---      sudo su
+
+# ubuntu 16 or older versions uses apt-get while new uses apt and apt-get both
+
+# commands that updates the list of new packages or softwares (only)
+
+    sudo apt update
+
+# commands that actually installs the upgraded versions of softwares and packages
+
+    sudo apt upgrade 
+
+# see directory and sub-directory
+
+    ls -R                          ;   R - recursive
+
+# make hidden file (can't be seen using ls command )
+
+    touch .file_name 
+
+# see hidden file
+
+    ls -a 
+
+# see all runned commands 
+
+    history
+
+# print something in command line 
+
+    echo this is a ball                          ---  print this is a ball and go to new line
+
+    printf "this is a ball"                       --  print this is a ball but not go to new line
+
+# ubuntu is case-sensitive 
+
+# see files with their rw permission
+
+    ls -l           ---     format :    owner --- group --- public              ( every user has a by default group)
+
+# change permission of file or directory
+
+    chmod 734 <file_name>
+
+# command that list processes which takes more resources 
+
+    top
+
+# command that list all running processes(excluding bg processes) 
+
+    ps 
+
+# command that list all running processes(including bg processses) 
+
+    ps -a
+
+# command to kill processes
+
+    kill <PID>                          ; PID --- process ID
+
+
+                                    
+
+    
+
