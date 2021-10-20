@@ -1,6 +1,7 @@
 # Types of Version Control System(VCS):
-    1. centralised VCS
-    2. distributed VCS
+    1.local VCS
+    2. centralised VCS
+    3. distributed VCS
 
 # github, gitlab, bitbucket --- hosting website which host git repos . git is free but these may charge
 
@@ -166,7 +167,7 @@
     git branch                               --- see branches
     git branch -v                            --- see branches alongwith thier last commit
     git branch --merged                      --- see merged branches
-    git branch --unmerged                    --- see unmerged branches
+    git branch --no-merged                   --- see unmerged branches
     git branch -d branchname                 --- delete only merged branches
     git branch -D branchname                 --- delete any branch
 
