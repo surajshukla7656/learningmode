@@ -1,6 +1,7 @@
 # Types of Version Control System(VCS):
-    1. centralised VCS
-    2. distributed VCS
+    1.local VCS
+    2. centralised VCS
+    3. distributed VCS
 
 # github, gitlab, bitbucket --- hosting website which host git repos . git is free but these may charge
 
