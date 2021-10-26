@@ -1,0 +1,26 @@
+
+1. head tag - contains metatags which are use to describe a website to search engine , title and external links
+
+2. metadata - data of data
+
+3. code folding
+
+4. SEO - Search Engine Optimisation - helping search engine to index website and its content
+
+5. emmet
+
+6. lorem , lorem5
+
+7. p*4 - open 4 paragraph slots
+
+8. tags and attribute
+
+9. ordered list , unordered list , nested lists
+
+10. inline and block elements
+
+11. ids and classes
+
+    div.mainbox#object ---> <div class="mainbox" id="object"></div>
+
+12. semantic and non-semantic tags (semantic - meaning)
