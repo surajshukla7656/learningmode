@@ -1,0 +1,111 @@
+/* fonts */
+
+#firstpara{
+    font-family:Arial, Helvetica, sans-serif;                            /* font staking */
+    font-size: 20px;
+    line-height: 1em;                 /* gap below and above the line */
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* colours */
+#firstpara{color: blue;                             /* by name */
+}
+
+#secondpara{
+    color:rgb(9, 7, 148);                           /* by rgb */
+}
+
+#thirdpara{
+    color:#532424 ;                                 /* hex color */
+    background-color: blanchedalmond;
+}
+
+/* height, width ,borders and backgrounds */
+#thirdpara{
+    height: 2s0px;
+    width: 3000px;
+    /* border : 4px solid green */
+    border-width: 4px;
+    border-style:solid;
+    border-color: green;       /* black by default */
++    border-radius: 111px;
+}
+
+#secondpara{
+    height: 30px;
+    border-top:2px solid violet;
+    border-bottom: 3px solid blue;
+    border-left: 4px solid green;
+    border-right : 5px solid red;
+    background:yellow;
+    border-bottom-left-radius: 100px;
+}
+
+#fourthpara{
+    height: 50px;
+    background-image: url("https://www.denofgeek.com/wp-content/uploads/2021/10/the-exorcist.jpg?resize=768%2C432");
+    background-repeat: no-repeat;               /* repeat-x : to repeat in x ,repeat-y : to repeat in y */
+    background-position: center center;         /* x y :center right , 12px top ,12px 14px,top right*/
+
+
+}
+
+/* box model- padding ,border and margin*/
+
+.next{
+    border : 2px solid black;
+    background-color: pink;
+    padding : 30px;
+    /* 
+    padding-top : 23px ;                     (bottom,left,right)
+    padding : 23px 43px 43px 89px ;           /*top right bottom left , top(x) bottom(y)
+    */
+    margin:10px 20px;
+    border-radius: 20px;
+}
+
+
+/* float - right/left ; clear - left/right/both (clear is use to avoid overlapping due to float*/
+
+
+/* removing underline from the links */
+a{
+    text-decoration:none;
+}
+
+/* what happen when we take cursor to that element - here a is selector*/
+a:hover{
+    color:rgb(9, 7, 148);
+    background-color: rgb(red, green, blue);
+
+}
+
+/* what happend when we visited an element */
+a:visited{
+    color:rgb(red, green, blue);
+}
+
+/* changes when clicked  */
+a:active{
+    color:rosybrown;
+}
+
+/* navigation */
+.navbar{
+    background-color: rosybrown;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float:left;
+    list-style: none;
+}
+
+.navbar li a {
+    padding : 3px 3px;
+    text-decoration: none;
+}

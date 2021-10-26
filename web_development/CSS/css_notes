@@ -1,0 +1,35 @@
+1. CSS - cascading style sheet - it is used for styling website and making responsive website
+
+2. css syntax :
+    selector or group of selector{ property1 : value1; property2 : value2; property3 : value3}       
+
+3. html code also called markup
+
+4. three ways to add css to markup
+    inline css   
+    internal css  
+    external css 
+
+5. priority : external css ~ internal css(orderwise) < inline css : overwrite way 
+
+6. chrome developer tools - inspect
+
+7. web saved fonts - fonts which are preinstalled in most of the os 
+
+8. web fonts - fonts which are imported from the internet to use ; visit google fonts and url to the html file
+
+9. pixel - 1/96 of a inch
+
+10. rgb has values from 0 to 256    
+
+11. actual width of a element = padding+margin ; to eliminate this use box-sizing property
+
+12. universal selector - using *
+
+13. box or elements can be centered using auto in margin
+
+14. display property - block or inline or inline-block;inline takes whole line ; block -can be use adjust width while inline cant be;
+   
+
+code with harry completed upto 24 tutorials
+

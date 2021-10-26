@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- external styling -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- internal styling -->
+    <style>
+
+        /* element selectors - all paragraph will be this color */
+        p{
+            color:rgb(136, 1, 136) ;
+        }
+
+        /* element selector */
+        div{
+            color: rgb(32, 9, 114);
+        }
+
+        /* class selector , to avoid overwritten use important */
+        .redelement{
+            color: red !important ;
+            background: yellow;
+        }
+        
+        /* id selector */
+        #bluebg{
+            background:blue;
+        }
+
+        /* grouping selectors */
+        footer,span{
+            background: green;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- understanding css -->
+    <p style="color : red;background-color:yellow">css tutorial</p>              <!--- inline styling -->
+    <div>line</div>
+    <p id="firstpara">this is first para</p>
+    <p id="secondpara">this is second para</p>
+    <p id="thirdpara">this is third para</p>
+
+<!-- css selectors -->
+    <p>this is a paragraph</p>
+    <p class = "redelement">this is paragraph having class-redelement</p>
+    <div id="bluebg">div having id - bluebg</div>
+    <footer>this is footer</footer>
+    <span>this is span</span>
+
+<!-- css fonts -->
+
+
+</body>
+
+</html>
